@@ -31,9 +31,6 @@ public static class AllEffects
         { EffectType.Attack, e => new Attack(e.FloatAmount)},
         { EffectType.EvadeAttacks, e => new Recurrent(new Evade(), e.IntAmount) },
     };
-    /**
-     * @todo #361:30min We sdhould be able to chain effects conditionally, as in MarkOfSalvation paladin card.
-     */
     
     public static void Apply(EffectData effectData, Member source, Target target)
     {
