@@ -6,6 +6,9 @@ static class GameDataMenu
     [MenuItem("Assets/Create/Card")]
     static void Card() => Create<Card>();
 
+    [MenuItem("Assets/Create/Advanced Card")]
+    static void AdvancedCard() => Create<AdvancedCard>();
+
     [MenuItem("Assets/Create/GameContent/Hero")]
     static void Hero() => Create<Hero>();
     [MenuItem("Assets/Create/GameContent/Enemy")]

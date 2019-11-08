@@ -3,7 +3,7 @@ using System.Linq;
 using UnityEngine;
 
 [Serializable]
-public sealed class CardAction
+public class CardAction
 {
     [SerializeField] private Scope targetScope;
     [SerializeField] private Group targetGroup;
